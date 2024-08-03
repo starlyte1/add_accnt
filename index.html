@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Add account</title>
+</head>
+<body>
+<div class="container">
+    <h6>Add Bank Account</h6>
+
+    <form action="/">
+    <label for="cardno">Card Number
+    <input type="text" name="cardno" id="cardno" maxlength="19" onkeypress="cardspace()"/>
+    </label>
+    <div class="float">
+    <label for="validtill">Valid till
+        <input type="text" name="validtill" id="validtill" maxlength="7" onkeypress="addSlashes()"/>
+    </label>
+  <label for="cvv">Cvv
+        <input type="text" name="cvv" id="cvv" maxlength="3"/>
+    </label></div>
+
+    <button>Add</button>
+    </form>
+</div> <script src="script.js"></script>
+</body>
+</html>
