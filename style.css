@@ -35,14 +35,14 @@ h1{
     font-size: 40px;
     color: var(--text-color);
 }
-form label{
+label{
     color: var(--text-color);
     text-transform: uppercase;
     position: relative;
     font-size: 10px;
     word-spacing: 4px;
 }
-form select{
+select{
     width: 100%;
     outline: none;
     border:none;
@@ -57,7 +57,7 @@ form select{
     background-color:transparent;
 
 }
-form #cardno{
+#cardno{
     width: 100%;
     outline: none;
     border:none;
@@ -70,7 +70,7 @@ form #cardno{
     font-size: 18px;
     background-color:transparent;
 }
-form label img{
+label img{
     position: absolute;
     left: 264px;
     top:17px;
